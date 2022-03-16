@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  display: grid;
+  justify-content: space-around;
+}
+
+.contactCard {
+  padding-top: 50px;
+  width: 300px;
+  height: 500px;
+  display: grid;
+  grid-template-rows: 20px 3fr 1fr 2fr 1fr;
+}
+#online {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 5px;
+  background-color: #10F6F2;
+  font-size:10px;
+  align-items: flex-end
+}
+.intro {
+  display: grid;
+  background-color: #EED98E;
+  justify-content: space-around;
+  justify-items: stretch;
+  align-items: center;
+}
+
+#pic {
+  border-radius: 50%;
+  height: 130px;
+  width: 100px;
+}
+.ratings {
+  display: grid;
+  background-color: #EA8EEE;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: stretch;
+}
+#rating {
+  display: flex;
+}
+.fa-star {
+  color: yellow;
+}
+#hollow {
+  color: white;
+}
+.prices {
+  display: grid;
+  background-color: #EE998E;
+  justify-content: space-around;
+  justify-items: center;
+  align-content: center;
+}
+.icons {
+  display: flex;
+  background-color: #EEE4E6;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#pic1 {
+  color: white;
+  width: 100px !important;
+  height: 50px !important;
+}
+#pic2 {
+  color: white;
+  width: 100px !important;
+  height: 50px !important;
+}
